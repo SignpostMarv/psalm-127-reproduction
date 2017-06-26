@@ -1,0 +1,20 @@
+{
+    "name": "signpostmarv/psalm-127-reproduction",
+    "description": "vimeo/psalm issue #127 reproduction",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "SignpostMarv",
+            "email": "me@signpostmarv.name"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "./src/Foo.php",
+            "./src/Bar.php"
+        ]
+    },
+    "require": {
+        "vimeo/psalm": "dev-master"
+    }
+}
